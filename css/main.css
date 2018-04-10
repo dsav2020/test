@@ -1,0 +1,238 @@
+@font-face {
+    font-family: roboto_bold;
+    src: url(../fonts/roboto_bold.ttf);
+}  
+
+@font-face {
+    font-family: roboto_light;
+    src: url(../fonts/roboto_light.ttf); 
+}  
+
+@font-face {
+    font-family: roboto_regular;
+    src: url(../fonts/roboto_regular.ttf); 
+} 
+
+@font-face {
+    font-family: roboto_thin; 
+    src: url(../fonts/roboto_thin.ttf);
+} 
+
+@font-face {
+    font-family: roboto_medium;
+    src: url(../fonts/roboto_medium.ttf); 
+} 
+
+@font-face {
+    font-family: helvetica_neue_cyr_black;
+    src: url(../fonts/helvetica_neue_cyr_black.otf);
+    
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.container{
+    background: url(../img/background.jpg) no-repeat center top / cover;
+    height: 100vh;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.main{
+    margin: 0 8%;
+    padding-top: 7%;
+    height: 100vh;
+}
+
+.left_h1{
+    float:left;
+}
+
+.counter_main{
+     float: right;
+     margin-top: 0.7%;
+     padding: 3% 2.6% 3.2% 2.6%;
+     border: 1px solid white;
+}
+
+.counter{
+    font-size: 180px;
+    font-family: roboto_thin;
+}
+
+.place{
+    font-size: 38px;
+    font-family: roboto_light;
+    line-height: 65%;
+    text-align: center;
+    padding-top: 24%;
+}
+
+.tx_head{
+    font-size: 70px;
+    font-family: roboto_bold;
+}
+
+.tx_t1{
+    font-size: 36px;
+    font-family: roboto_light;
+}
+
+.tx_t2{
+    margin-top: 6%;
+    border-left: 8px solid #f0e353;
+    padding-left: 1em;
+}
+
+.tx_t2_1{
+    font-size: 60px;
+    font-family: roboto_regular;
+}
+
+.tx_t2_2{
+    font-size: 50px;
+    font-family: roboto_regular;
+}
+
+.tx_t2_3{
+    font-size: 50px;
+    font-family: roboto_light;
+}
+
+.tx_t2_4{
+    font-size: 30px;
+    font-family: roboto_light;
+}
+
+.yellowtext{
+    color: #f0e353;
+    float:left;
+}
+
+.upp{
+    text-transform: uppercase;
+}
+
+.register_div{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.register a:link{
+    display: inline;
+    color: #f0e353;
+    padding: 1% 6.7%;
+    font-size: 50px;
+    font-family: roboto_medium;
+    border: 1px solid #f0e353;
+    text-decoration: none;    
+}
+
+.register a:hover{
+    border: 1px solid white;
+    color: white;
+    background: #f0e353;
+}
+
+.register a:visited{
+    color: #f0e353;    
+}
+
+.register a:visited:hover{
+    color: white;    
+}
+
+.record{
+    text-align: center;
+    padding-top: 2%;
+    font-size: 22.05px;
+    font-family: roboto_thin;
+}
+
+.arrow{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.arrow img:hover{
+    transform: translate(0,50px);
+    transition: all 2s ease-in-out;
+}
+
+.footer{
+    height: 375px;
+    background-color: #55719f;
+}
+
+.footer_1{
+    width: 50%;
+    height: 375px;
+    border-right: 1px solid white;
+    float:left;
+}
+
+.footer_2{
+    float:right;
+    width: 35%;
+    margin-top: 6%;
+    margin-right: 6%;
+}
+
+
+.foo_1{
+    float:left;
+    padding-left: 15%;
+    padding-top: 15%;   
+}
+
+.foo_2{
+    font-size: 35px;
+    font-family: roboto_regular;    
+    float:left;
+    padding-left: 4%;
+    padding-top: 15%;
+}
+
+.footer_2_1{
+    font-size: 121.31px;
+    font-family: helvetica_neue_cyr_black;
+    float:left;
+
+    transform: rotate(-45deg);
+    border-radius: 100%;
+    border: 5px solid white;
+    padding: 0 25px;
+}
+
+.foo_3{
+    font-size: 35px;
+    font-family: roboto_regular;
+    border-bottom: 2px solid white;
+    padding-right: 93px;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding-bottom: 5px;
+}
+
+.foo_4{
+    font-size: 22px;
+    font-family: roboto_light;
+    margin-left: 3%;
+    margin-top: 10px;
+    float:left;
+}
